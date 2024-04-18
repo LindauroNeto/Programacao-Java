@@ -15,6 +15,8 @@ public class JogoDoTigrinho {
             System.out.print("INSIRA O VALOR A SER DEPOSITADO: ");
             
             String leitor = scaner.nextLine();
+
+            System.out.println("yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaag");
             
         }
         
