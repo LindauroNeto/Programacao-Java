@@ -1,0 +1,7 @@
+* Como acessar atributos do tipo "private", utiliza os métodos getters e setters.
+getters - para se pegar uma informação de um atributo privado.
+setters - para definir um valor para um atributo de uma classe privada.
+
+* O @Data é uma anottation (importada do lombok), que coloca todos os atributos privados com os métodos getters e setters, sem ter que  aplicar em cada um.
+
+* entidade = tabela/objeto que vai representar uma tabela.

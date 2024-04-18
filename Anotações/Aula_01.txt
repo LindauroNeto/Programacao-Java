@@ -1,0 +1,43 @@
+* Controller = é um componente que vai receber as requisições do usuário.
+
+// ANOTAITON
+* A diferença entre a @Controller e a @RestController
+1.°) É utilizada para uma flexibildade maior, utiizada para o retorno de páginas e objetos.
+2.°) Utilizada na construção de uma API
+
+// MÉTODO de uma CLASSE
+* O método: 
+public String primeiraMensagem() {}
+
+° public = É o modificador
+° String = É o tipo de retorno
+° "primeiraMensagem" = É o nome do método
+° em (), dentro dele haverá os parâmetros da requisição
+
+// MÉTODO de acesso do HTTP
+* Métodos para a requisição ho http:
+GET - busca uma informação
+POST - Adicionar um dado/informação
+PUT - Alteração de dado/info
+DELETE - Remover um dado
+PATCH - Alterar somente uma parte da info/dado
+
+* @RequestMapping() = Vai definir a rota para o browser
+
+* Os modificadores de uma classe são:
+public - qualquer um pode acessar a classe
+private - somente algumas pessoas terão acesso
+portected
+ 
+* Os tipos de retorno:
+String - texto
+Integer - números inteiros
+Double - números decimais
+Float - números reais
+char - caractéres
+Date - data
+void - para não ter retorno
+
+* Para printar uma mensagem no Java:
+System.out.println(mensagem);
+
