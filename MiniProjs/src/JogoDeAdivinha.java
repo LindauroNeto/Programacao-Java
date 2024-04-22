@@ -23,6 +23,7 @@ public class JogoDeAdivinha {
             } else {
                 System.out.println("Parabéns! Você achou o número "+ ranNumber+ "!");
             }
-        }     
+        }
+        reader.close();   
     }
 }

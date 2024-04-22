@@ -19,13 +19,17 @@ public class tstArrays {
         }
 
         System.out.println("\n-----------------------------------------");
-
+        
         for (int i = 0; i < 1000; i++) {
             umAInfinito.add(i+1);
         }
         for (Integer i : umAInfinito) {
             System.out.print(i+" ");
         }
-                
+        
+        System.out.println("\n-----------------------------------------");
+        for (int i = 0; i < carros.length; i++) {
+            System.out.printf("%-15s%5d%n", carros[i], umADez[i]);
+        }                
     }
 }

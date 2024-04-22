@@ -13,7 +13,11 @@ public class BolaDeCristal {
         System.out.println("\"Irei me casar com a pessoa dos meus sonhos?\"");
         System.out.println("Me pregunte(completando a frase) e lhe darei a resposta....");
         System.out.print("\nEu serei ");
+
+        @SuppressWarnings("unused")
         String answer = reader.nextLine();
+        reader.close();
+        
         boolean aleatorio = random.nextBoolean();
         if (aleatorio == true) {
             System.out.println("SIM! Saiba que isso será fácil para você e ainda amará isso!");
