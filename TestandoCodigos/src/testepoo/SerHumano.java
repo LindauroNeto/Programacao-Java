@@ -1,4 +1,4 @@
-package tstPOO;
+package testepoo;
 
 public class SerHumano {
     String nome;
