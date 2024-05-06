@@ -7,3 +7,5 @@ ProjBiblioteca/src/CadastroDeLivros.java
 TestandoCodigos/src/Exercism.java
 MiniProjs/src/Ordenador.java
 /.metadata/
+/.vscode
+.vscode/launch.json

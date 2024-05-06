@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Trabalhador",
+            "request": "launch",
+            "mainClass": "tstinterface.Trabalhador",
+            "projectName": "Java_f09584eb"
+        },
+        {
+            "type": "java",
+            "name": "Animal",
+            "request": "launch",
+            "mainClass": "testepoo.Animal",
+            "projectName": "Java_f09584eb"
+        },
+        {
+            "type": "java",
             "name": "tstMainClasse",
             "request": "launch",
             "mainClass": "testepoo.tstMainClasse",
