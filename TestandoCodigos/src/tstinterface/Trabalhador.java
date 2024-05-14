@@ -1,14 +1,9 @@
 package tstinterface;
 
-interface Trabalhadores {
-    public void irAoTrabalho(String horario, String meioDeLocomocao);
-    public void trabalhando();
-    public void voltaPraCasa(String horario, String meioDeLocomocao);
-}
-
 public class Trabalhador {
     String nome;
     int idade;
+    //String cargo;
 
     public static void main(String[] args) {
         Telemarketing worker1 = new Telemarketing(
@@ -16,10 +11,22 @@ public class Trabalhador {
             23
         );
 
+        Trabalhador.Telemarketing worker2 = new Trabalhador.Telemarketing(
+            "Ana Tereza",
+            38
+        );
+
         worker1.irAoTrabalho("6hrs", "Metrô");
         worker1.trabalhando();
         worker1.voltaPraCasa("18hrs", "Uber moto");
-        worker1.apresentacao();
+        worker1.surpresa();
+
+        System.out.println();
+
+        worker2.irAoTrabalho("5hrs", "Carro");
+        worker2.trabalhando();
+        worker2.voltaPraCasa("13hrs", "Carro");
+        worker2.surpresa();
     }
     
     static class Telemarketing extends Trabalhador implements Trabalhadores {
@@ -30,7 +37,7 @@ public class Trabalhador {
         
         @Override
         public void irAoTrabalho(String horario, String meioDeLocomocao) {
-            System.out.format("%s vai para o trabalho às %s de %s\n", nome, horario, meioDeLocomocao.toLowerCase());
+            System.out.format("%s vai para o trabalho às %s de %s.\n", nome, horario, meioDeLocomocao.toLowerCase());
         }
     
         @Override
@@ -40,11 +47,11 @@ public class Trabalhador {
 
         @Override
         public void voltaPraCasa(String horario, String meioDeLocomocao){
-            System.out.format("%s está indo para casa de %s, saindo às %s\n", nome, meioDeLocomocao.toLowerCase(), horario);
+            System.out.format("%s está indo para casa de %s, saindo às %s.\n", nome, meioDeLocomocao.toLowerCase(), horario);
         }
 
-        public void apresentacao(){
-            System.out.format("No final do dia... %s chega em casa cansado e tem um festa supresa de seu aniversário! Ele completa %d anos!\n", nome, idade+1);
+        public void surpresa(){
+            System.out.format("No final do dia... %s chega em casa cansado e tem um festa supresa de seu aniversário! %s estah completando %d anos!\n", nome, nome, idade+1);
         }
     }
 }

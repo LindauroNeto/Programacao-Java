@@ -4,9 +4,8 @@ package testepoo;
 abstract class Animais {
     String nome;
     String especie;
-    public abstract void apresentacao();
-    public abstract void somDeAnimal();
-    public abstract void comendo(String comida);
-    public abstract void dormindo();
-    
+    abstract void apresentacao();
+    abstract void somDeAnimal();
+    abstract void comendo(String comida);
+    abstract void dormindo();
 }
