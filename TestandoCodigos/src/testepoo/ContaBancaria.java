@@ -58,12 +58,12 @@ public class ContaBancaria {
     }
 
     ContaBancaria(String nome, long cpf, float saldo, int agencia, int conta, String instituicao){
-      this.nome = nome;
-      this.cpf = cpf;
-      this.saldo = saldo;
-      this.agencia = agencia;
-      this.conta = conta;
-      this.instituicao = instituicao;
+      setNome(nome);
+      setCpf(cpf);
+      setSaldo(saldo);
+      setAgencia(agencia);
+      setConta(conta);
+      setInstituicao(instituicao);
     }
   
     ContaBancaria(){

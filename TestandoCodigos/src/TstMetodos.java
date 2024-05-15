@@ -17,7 +17,7 @@ public class TstMetodos {
         if (idade >= 18) {
             System.out.println("Você já tem idade para votar! O que voçê está esperando?");
         } else if (idade < 18 && idade >= 16) {
-            System.out.println("Olha você não tem a idade recomendada para votar... Mas se quiser você já pode sim votar!");
+            System.out.println("Olha, você não tem a idade recomendada para votar... Mas se quiser você já pode votar sim!");
         } else {
             System.out.println("Você não possue a idade mínima para votar.");
         }

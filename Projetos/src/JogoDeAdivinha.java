@@ -9,7 +9,7 @@ public class JogoDeAdivinha {
         int ranNumber = random.nextInt(100)+1;
         int answer = 999;
         
-        System.out.println("\nSeja bem vindo ao jogo de adivinha! Tente adivinhar um número de 0 a 100, boa sorte!");
+        System.out.println("Seja bem vindo ao jogo de adivinha! Tente adivinhar um número de 0 a 100, boa sorte!");
 
         while (answer != ranNumber) {
             System.out.println("------------------------------------------");

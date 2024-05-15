@@ -6,7 +6,6 @@ public class BolaDeCristal {
         Random random = new Random();
         Scanner reader = new Scanner(System.in);
         
-        System.out.println();
         System.out.println("Eu sou o ser da consciência onipotente, Jarius!!");
         System.out.println("Me faça perguntas de sim ou não, como:");
         System.out.println("\"Serei Rico?\"");

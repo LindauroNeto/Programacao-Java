@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 // AINDA EM MANUTENÇÃO
+// Lembrando leve esse programana brincadeira
 
 @SuppressWarnings("unused")
 public class JogoDoTigrinho {
@@ -17,7 +18,7 @@ public class JogoDoTigrinho {
             
         //     String leitor = scaner.nextLine();
 
-        //     System.out.println("yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaag");
+        //     System.out.println("yaaaaaaaaaaaaaaaaaaaaaaayy");
             
         // }
         

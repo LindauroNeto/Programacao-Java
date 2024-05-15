@@ -6,9 +6,8 @@ public class Teste{
         System.out.println(2);
         System.out.println(10 - 9);
         System.out.println(" ");
-        System.out.println("Java BECKend!");
-        System.out.println("Tendeu?");
-        System.out.println("Nao?...");
-        System.out.println("Foi mal...");
+        System.out.println("Eu");
+        System.out.println("Amo");
+        System.out.println("Java Backend!");
     }
 }

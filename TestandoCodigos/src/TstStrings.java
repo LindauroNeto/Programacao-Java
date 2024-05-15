@@ -2,7 +2,7 @@ public class TstStrings {
 
     public static void main(String[] args) {
         String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        System.out.println("The length of the txt string is: " + txt.length());
+        System.out.println("O tamanho da string txt é: " + txt.length());
 
         System.out.println(txt.indexOf("T"));
         System.out.println(txt.indexOf('A'));

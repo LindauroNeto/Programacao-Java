@@ -16,15 +16,13 @@ public class MainBinario {
 			System.out.println("Digite o valor em Decimal para converter para Binário:");
 	        int scannerDecimal = scanner.nextInt();
 	        
-	        if (scannerDecimal == 0) {
-	        	System.out.println("---------------");
+	        if (scannerDecimal == 0 || scannerDecimal == 1) {
+	        	Conversor.linhas();
 				System.out.println(scannerDecimal);
-			} else if(scannerDecimal == 1) {
-				System.out.println("---------------");
-				System.out.println(scannerDecimal);	
 			} else {
 				Conversor.DecimalToBinary(scannerDecimal);
 			}
+	        
 			break;
 			
 		case "2":
@@ -34,7 +32,7 @@ public class MainBinario {
 			break;
 
 		default:
-			System.out.println("Selação inválida");	
+			System.out.format("A opção \'%s\' é inválida", opc);	
 			break;
 		}
         scanner.close();

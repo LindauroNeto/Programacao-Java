@@ -8,24 +8,20 @@ public class tstMainClasse {
     public static void main(String[] args) {
         // Classe SerHumano
         linhas();
+        
         SerHumano pessoa1 = new SerHumano("Pietro", 27, "Engenheiro de Software");
-            
         System.out.printf("Nome: %s\nIdade: %d\nProfissão: %s\n", pessoa1.nome, pessoa1.idade, pessoa1.profissao);
-        // System.out.format("Nome: %-5s Idade: %-5d Profissão: %5s\n", pessoa1.nome, pessoa1.idade, pessoa1.profissao);
         linhas();
         
         SerHumano pessoa2 = new SerHumano("Joabe", 43);
-            
         System.out.printf("Nome: %s\nIdade: %d\n", pessoa2.nome, pessoa2.idade);
         linhas();
         
         SerHumano pessoa3 = new SerHumano("Karlos");
-            
         System.out.printf("Nome: %s\n", pessoa3.nome);
         linhas();
         
         SerHumano pessoa4 = new SerHumano();
-        
         System.out.printf("Nome: %s\nIdade: %d\nProfissão: %s\n", pessoa4.nome, pessoa4.idade, pessoa4.profissao);       
         linhas();
         
@@ -45,6 +41,8 @@ public class tstMainClasse {
         System.out.println("Mas agora, " + conta1.getNome() + " vai para o " + conta1.getInstituicao());
         System.out.println("Com um saldo de R$ " + conta1.getSaldo());
 
+        System.out.println();
+        
         ContaBancaria conta2 = new ContaBancaria();
         
         System.out.println(conta2.getNome() + " tem sua conta vinculada ao banco: " + conta2.getInstituicao());
@@ -65,6 +63,7 @@ public class tstMainClasse {
 
         System.out.format("%s é um %s com %d anos de idade, com o poder da %s.\n", heroi1.nomeFicticio, heroi1.profissao.toUpperCase(), heroi1.idade, heroi1.poder.toLowerCase());
         
+        
         SuperHumano vilao1 = new SuperHumano(
             "Laercio",
             22,
@@ -74,5 +73,7 @@ public class tstMainClasse {
         );
 
         System.out.format("%s é um %s com %d anos de idade, com o poder da %s.\n", vilao1.nomeFicticio, vilao1.profissao.toUpperCase(), vilao1.idade, vilao1.poder.toLowerCase());
+        
+        System.out.format("Shhhhhh... Eh segredo, mas os verdadeiros nomes deles são %s(%s) e %s(%s).", heroi1.nome, heroi1.nomeFicticio, vilao1.nome, vilao1.nomeFicticio);
     }
 }

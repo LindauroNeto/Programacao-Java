@@ -16,9 +16,9 @@ public class Ordenador {
             }
             listNumbers[j + 1] = maiorValor;
         }
-        // *-
+        // -*
 
-        System.out.print("[ ");
+        System.out.print("Valor organizado: [ ");
         for (int i = 0; i < listNumbers.length; i++) {
             System.out.print(listNumbers[i]+ " ");
         }
@@ -26,7 +26,7 @@ public class Ordenador {
     }
     
     public static void main(String[] args) {
-        System.out.print("[ ");
+        System.out.print("Valor bagunçado:  [ ");
         for (int i = 0; i < listNumbers.length; i++) {
             listNumbers[i] = random.nextInt(100+1);
             System.out.print(listNumbers[i]+ " ");
