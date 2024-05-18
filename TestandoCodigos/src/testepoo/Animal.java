@@ -1,7 +1,7 @@
 package testepoo;
 
 // POO - POLIMORFISMO
-public abstract class Animal {
+public class Animal {
 	public void somDeAnimal() {
 		System.out.println("Som de animal");
 	}
@@ -9,7 +9,7 @@ public abstract class Animal {
 	public static void main(String[] args) {
 		Cachorro cachorro1 = new Cachorro();
 		Gato gato1 = new Gato();
-
+		
 		cachorro1.somDeAnimal();
 		gato1.somDeAnimal();
 
