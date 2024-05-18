@@ -2,10 +2,10 @@ package testepoo;
 
 // POO - Abstração
 abstract class Animais {
-    String nome;
-    String especie;
-    abstract void apresentacao();
-    abstract void somDeAnimal();
-    abstract void comendo(String comida);
-    abstract void dormindo();
+	protected String nome;
+	protected String especie;
+	protected abstract void apresentacao();
+	protected abstract void somDeAnimal();
+	protected abstract void comendo(String comida);
+	protected abstract void dormindo();
 }
