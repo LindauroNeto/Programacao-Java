@@ -1,4 +1,4 @@
-public class TstStrings {
+public class TestandoStrings {
 
     public static void main(String[] args) {
         String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

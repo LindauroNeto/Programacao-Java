@@ -1,4 +1,4 @@
-public class TstCondicoes{
+public class TestandoCondicoes{
 
     public static void main(String[] args) {
         int tempo = 12;

@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 
 // INOCOMPLETO
 
-public class tstGUI {
+public class TestandoGUI {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setTitle("Tela em Branco");

@@ -1,4 +1,4 @@
-public class TstLoops {
+public class TestandoLoops {
 
     public static void main(String[] args) {
         int i = 0;

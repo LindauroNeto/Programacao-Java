@@ -1,4 +1,4 @@
-public class TstMetodos {
+public class TestandoMetodos {
 
     static void meuMetodo() {
         System.out.println("EU como maçã todo dia.");

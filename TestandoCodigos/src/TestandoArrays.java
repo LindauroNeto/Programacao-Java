@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class tstArrays {
+public class TestandoArrays {
     static String[] carros = {"BMW", "Wolkswagen", "Camaro", "Ferrari"};
     static int[] umADez = new int[10];
     
