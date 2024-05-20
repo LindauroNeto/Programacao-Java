@@ -17,9 +17,9 @@ public class JogoDeAdivinha {
             answer = reader.nextInt();
 
             if (answer > ranNumber) {
-                System.out.println("Calma aí! Esse valor é muito alto!");
+                System.out.println("Calma aí! Esse valor é ainda alto!");
             } else if (answer < ranNumber) {
-                System.out.println("Esse valor é muito baixo!");
+                System.out.println("Esse valor é ainda baixo!");
             } else {
                 System.out.println("Parabéns! Você achou o número "+ ranNumber+ "!");
             }

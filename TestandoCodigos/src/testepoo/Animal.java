@@ -9,7 +9,7 @@ public class Animal {
 	public static void main(String[] args) {
 		Cachorro cachorro1 = new Cachorro();
 		Gato gato1 = new Gato();
-
+		
 		cachorro1.somDeAnimal();
 		gato1.somDeAnimal();
 
