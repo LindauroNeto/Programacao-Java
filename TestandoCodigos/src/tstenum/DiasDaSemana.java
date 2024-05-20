@@ -11,6 +11,10 @@ public enum DiasDaSemana {
 	int numDia;
 	String nomeDia;
 	
+	public void infoDia() {
+		System.out.format("Hoje é %s, dia n°%d da semana.\n", this.nomeDia, this.numDia);
+	}
+	
 	private DiasDaSemana(int numDia, String nomeDia) {
 		this.numDia = numDia;
 		this.nomeDia = nomeDia;

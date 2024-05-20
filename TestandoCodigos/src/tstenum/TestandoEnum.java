@@ -16,11 +16,12 @@ public class TestandoEnum {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(DiasDaSemana.DIA_6);
 		System.out.println(MesesDoAno.MES_3);
 		
 		DiasDaSemana dia = DiasDaSemana.DIA_6;
-		System.out.format("Hoje é %s, dia n°%d da semana.\n", dia.nomeDia, dia.numDia);
+		System.out.println(dia);
+		
+		DiasDaSemana.DIA_1.infoDia();
 		
 		MesesDoAno mes = MesesDoAno.MES_5;
 		
