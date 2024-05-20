@@ -6,12 +6,13 @@ public class Cachorro extends Pets {
 	}
 
 	@Override
-	void somPet() {
-		System.out.println("Au! Au! Au!");
+	String somPet() {
+		return "Au! Au! Au!";
 	}
 
 	@Override
 	String preferencia() {
 		return this.nome + " gosta muito de osso!";
 	}
+	
 }

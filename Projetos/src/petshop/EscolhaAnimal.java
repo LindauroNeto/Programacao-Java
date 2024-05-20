@@ -6,10 +6,9 @@ public class EscolhaAnimal {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Pets pet;
-		
 		System.out.format("%-13sPET SHOP%13s\n", sinal, sinal);
 		System.out.println("Qual bixinho você gostaria de adotar?\n- [1] CACHORRO\n- [2] GATO\n- [3] PEIXE\n- [4] PÁSSARO");
-		System.out.println("=-=-=-=-=-=-=-=-=-=---=-=-=-=-=");
+		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 		String escolha = scan.nextLine();
 
 		switch (escolha) {
@@ -42,7 +41,7 @@ public class EscolhaAnimal {
 
 	private static void exibicao(Pets pet, Scanner scan) {
 		System.out.format("%s Adotando um %s.... %s\n", sinal, pet.tipoAnimal, sinal);
-		pet.somPet();
+		System.out.format("\"%s\"\n", pet.somPet());
 		System.out.format("É um(a) %s!\n", pet.genero);
 		System.out.println("Esolha um nome!");
 		pet.nome = scan.nextLine();
@@ -57,6 +56,6 @@ public class EscolhaAnimal {
 		pet.brincar();
 		pet.dormir();
 	}
-	
-	private static String sinal = "-=*=-";
+
+	private final static String sinal = "-=*=-";
 }

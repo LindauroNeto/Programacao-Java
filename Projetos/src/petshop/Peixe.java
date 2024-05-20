@@ -6,8 +6,8 @@ public class Peixe extends Pets {
 	}
 
 	@Override
-	void somPet() {
-		System.out.println("Blu... Blu... Blu!");
+	String somPet() {
+		return "Blu... Blu... Blu!";
 	}
 
 	@Override

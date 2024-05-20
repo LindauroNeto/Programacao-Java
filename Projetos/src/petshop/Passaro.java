@@ -6,13 +6,13 @@ public class Passaro extends Pets {
 	}
 
 	@Override
-	void somPet() {
-		System.out.println("Piu! Piu! Piu!");
+	String somPet() {
+		return "Piu! Piu! Piu!";
 	}
 
 	@Override
 	String preferencia() {
 		return this.nome + " gosta muito de voar!";
 	}
-
+	
 }
