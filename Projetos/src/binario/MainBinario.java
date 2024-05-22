@@ -26,7 +26,7 @@ public class MainBinario {
 					Conversor.DecimalToBinary(scannerDecimal);
 				}
 			} catch (InputMismatchException ime) {
-				System.out.println("Por favor, digite um valor do sistema DECIMAL.");
+				System.out.println("Por favor, digite um valor do sistema DECIMAL. Ou o valor que você digitou muito grande.");
 			}
 			break;
 
