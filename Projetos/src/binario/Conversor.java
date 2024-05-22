@@ -25,7 +25,8 @@ public class Conversor {
 			System.out.print(arranjo.get(i));
 		}
 	}
-
+	
+	// Fazer com que aceite somente valores binários.
 	static void BinaryToDecimal(String binario) {
 		int j = 0;
 		for (int i = binario.length() - 1; i >= 0; i--) {

@@ -1,5 +1,6 @@
 package binario;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MainBinario {
@@ -15,21 +16,28 @@ public class MainBinario {
 		switch (opc) {
 		case "1":
 			System.out.println("Digite o valor em Decimal para converter para Binário:");
-			int scannerDecimal = scanner.nextInt();
+			try {
+				int scannerDecimal = scanner.nextInt();
 
-			if (scannerDecimal == 0 || scannerDecimal == 1) {
-				Conversor.linhas();
-				System.out.println(scannerDecimal);
-			} else {
-				Conversor.DecimalToBinary(scannerDecimal);
+				if (scannerDecimal == 0 || scannerDecimal == 1) {
+					Conversor.linhas();
+					System.out.println(scannerDecimal);
+				} else {
+					Conversor.DecimalToBinary(scannerDecimal);
+				}
+			} catch (InputMismatchException ime) {
+				System.out.println("Por favor, digite um valor do sistema DECIMAL.");
 			}
-
 			break;
 
 		case "2":
-			System.out.println("Digite o valor em Binário para converter para Decimal:");
-			String scannerBinario = scanner.nextLine();
-			Conversor.BinaryToDecimal(scannerBinario);
+			try {
+				System.out.println("Digite o valor em Binário para converter para Decimal:");
+				String scannerBinario = scanner.nextLine();
+				Conversor.BinaryToDecimal(scannerBinario);				
+			} catch (NumberFormatException nfe) {
+				System.out.println("Por favor, digite um valor do sistema BINÁRIO.");
+			}
 			break;
 
 		default:
