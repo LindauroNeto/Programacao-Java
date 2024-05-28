@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-// AINDA EM MANUTENÇÃO
+// AINDA EM MANUTENÇÃO.
 // Lembrando leve esse programana brincadeira
 
 @SuppressWarnings("unused")
