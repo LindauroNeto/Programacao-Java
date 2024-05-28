@@ -26,4 +26,4 @@ Nesta seção, você encrontará alguns dos meus primeiros projetos, como:
 * Um gerador de senha de acordo com o número de carácteres decidido pelo usuário
 * Um programa de petshop que você pode escolher o seu bixinho!
 
-### Haverá mais conceitos e projetos mais outros futuramente!
+### Haverá mais conceitos e projetos futuramente!
