@@ -1,3 +1,4 @@
+package tstcollections;
 import java.util.LinkedList;
 
 public class TestandoLinkedList {

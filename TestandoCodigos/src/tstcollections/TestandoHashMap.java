@@ -1,3 +1,4 @@
+package tstcollections;
 import java.util.HashMap;
 
 public class TestandoHashMap {

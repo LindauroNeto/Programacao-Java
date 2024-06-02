@@ -1,3 +1,4 @@
+package tstcollections;
 import java.util.HashSet;
 
 public class TestandoHashSet {
