@@ -15,6 +15,9 @@ Nessa seção, há os meus aprendizados dos conceitos base do Java, como:
 * Interfaces
 * Enums
 * Uso de Datas/Tempo
+* Criação de LinkedList
+* Criação do HashMap
+* Criação do HashSet
 
 ## Projetos
 Nesta seção, você encrontará alguns dos meus primeiros projetos, como:
@@ -26,4 +29,4 @@ Nesta seção, você encrontará alguns dos meus primeiros projetos, como:
 * Um gerador de senha de acordo com o número de carácteres decidido pelo usuário
 * Um programa de petshop que você pode escolher o seu bixinho!
 
-### Haverá mais conceitos e projetos futuramente!
+### Haverá mais conceitos e projetos futuramente! Aguardem por mais.
