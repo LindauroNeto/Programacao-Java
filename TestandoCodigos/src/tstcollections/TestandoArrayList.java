@@ -26,7 +26,7 @@ public class TestandoArrayList {
 		
 		for (int i = 1; i <= 10; i++) {
 			numeros.add(i);
-//			System.out.println(numeros.get(i - 1));
+			//System.out.println(numeros.get(i - 1));
 		}
 		
 		for (Integer i : numeros) {

@@ -1,4 +1,4 @@
-package testepoo;
+package tstpoo;
 
 // POO - POLIMORFISMO
 public class Animal {

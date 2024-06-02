@@ -1,4 +1,4 @@
-package testepoo;
+package tstpoo;
 
 // POO - Abstração
 abstract class Animais {

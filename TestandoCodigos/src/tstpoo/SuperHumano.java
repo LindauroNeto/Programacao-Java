@@ -1,4 +1,4 @@
-package testepoo;
+package tstpoo;
 
 public class SuperHumano extends SerHumano {
     String poder;
