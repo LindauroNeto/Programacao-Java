@@ -15,9 +15,8 @@ Nessa seção, há os meus aprendizados dos conceitos base do Java, como:
 * Interfaces
 * Enums
 * Uso de Datas/Tempo
-* Criação de LinkedList
-* Criação do HashMap
-* Criação do HashSet
+* Collections (ArrayList, LinkedList, HashMap)
+* Uso/Criação de Exceptions 
 
 ## Projetos
 Nesta seção, você encrontará alguns dos meus primeiros projetos, como:
