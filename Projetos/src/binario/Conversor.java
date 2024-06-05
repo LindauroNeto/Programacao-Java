@@ -6,10 +6,6 @@ import java.util.ArrayList;
 public class Conversor {
 	private static ArrayList<String> arranjo = new ArrayList<String>();
 
-	static void linhas() {
-		System.out.println("---------------");
-	}
-
 	@SuppressWarnings("unused")
 	static void DecimalToBinary(int decimal) {
 		arranjo.add(Integer.toString(decimal % 2));
@@ -18,8 +14,6 @@ public class Conversor {
 			arranjo.add(Integer.toString(decimal % 2));
 		}
 		arranjo.add(Integer.toString(decimal / 2));
-
-		linhas();
 
 		for (int i = arranjo.size() - 1; i >= 0; i--) {
 			System.out.print(arranjo.get(i));
@@ -37,7 +31,6 @@ public class Conversor {
 			j += (int) (Integer.parseInt(arranjo.get(i)) * Math.pow(2, i));
 		}
 
-		linhas();
 		System.out.println(j);
 	}
 }

@@ -20,7 +20,6 @@ public class MainBinario {
 				int scannerDecimal = scanner.nextInt();
 
 				if (scannerDecimal == 0 || scannerDecimal == 1) {
-					Conversor.linhas();
 					System.out.println(scannerDecimal);
 				} else {
 					Conversor.DecimalToBinary(scannerDecimal);
@@ -45,5 +44,7 @@ public class MainBinario {
 			break;
 		}
 		scanner.close();
+
 	}
+
 }
