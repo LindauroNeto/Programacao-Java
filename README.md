@@ -24,8 +24,6 @@ Nesta seção, você encrontará alguns dos meus primeiros projetos, como:
 * Uma bola de cristal, que "prevê o seu futuro"
 * Um jogo de adivinha, em que você deve adivinhar um valor de 0 a 100 escolhido aleatoriamente pelo programa
 * Um ordenar que arruma em ordem crescente valores aleatórios
-* Um programa que pode converter um número do sistema decimal para o sistema binário e vice-versa
-* Um gerador de senha de acordo com o número de carácteres decidido pelo usuário
 * Um programa de petshop que você pode escolher o seu bixinho!
 
 ### Haverá mais conceitos e projetos futuramente! Aguardem por mais.
