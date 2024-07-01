@@ -1,4 +1,4 @@
-.gitignore
+
 /Anotações
 /ProjBiblioteca
 TestandoCodigos/src/Exercism.java
@@ -23,5 +23,5 @@ Projetos/src/JogoDoTigrinho.java
 /PokemonAPIRest
 VerCEP/
 ConversorDeBinario/
-CriadorSenha
+CriadorSenha/
 
