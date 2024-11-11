@@ -10,6 +10,7 @@ public class ServidorSimplesHttp {
 
 	public static void main(String[] args) throws IOException {
 
+		@SuppressWarnings("resource")
 		final ServerSocket servidor = new ServerSocket(8080);
 		System.out.println("Ouvindo a conexão na porta 8080...");
 		// Para rodar, coloque 'http://localhost:8080' no browser.
