@@ -7,6 +7,8 @@ public class TestandoStrings {
         System.out.println(txt.indexOf("T"));
         System.out.println(txt.indexOf('A'));
         System.out.println(txt.indexOf('X'));
+        System.out.println(txt.charAt(0));
+        System.out.println(txt.charAt(9));
 
         String PrimNome = "Paulo";
         String UltiNome = "Sergio";

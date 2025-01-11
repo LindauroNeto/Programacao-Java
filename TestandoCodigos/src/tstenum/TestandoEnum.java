@@ -21,7 +21,7 @@ public class TestandoEnum {
 		DiasDaSemana dia = DiasDaSemana.DIA_6;
 		System.out.println(dia);
 		
-		DiasDaSemana.DIA_1.infoDia();
+		System.out.println(DiasDaSemana.DIA_1.toString());
 		
 		MesesDoAno mes = MesesDoAno.MES_5;
 		

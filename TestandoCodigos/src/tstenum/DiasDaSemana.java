@@ -11,8 +11,9 @@ public enum DiasDaSemana {
 	int numDia;
 	String nomeDia;
 	
-	public void infoDia() {
-		System.out.format("Hoje é %s, dia n°%d da semana.\n", this.nomeDia, this.numDia);
+	@Override
+	public String toString() {
+		return String.format("Hoje é %s, o %d° dia da semana.\n", this.nomeDia, this.numDia);
 	}
 	
 	private DiasDaSemana(int numDia, String nomeDia) {
